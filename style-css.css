@@ -1,8 +1,12 @@
-
 /*heading section starts*/
 body 
 {
 background-color: aquamarine;
+}
+@media screen and (max-width: 480px){
+    body {
+        background-color: aquamarine;
+    }
 }
 .class-1{
     min-height: 35mm;
@@ -17,6 +21,33 @@ background-color: aquamarine;
 .title{
     font-family: sans-serif;
     font-size: large;
+}
+.classC{
+    min-width: 90mm;
+    min-height: 60mm;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0,0,10,0;
+    font-size: 16px;
+}
+.classC img{
+    width: 100%;
+    min-width: 60px;
+    margin-right: 20px;
+}
+.classA{
+    min-width: 60mm;
+    width: 50%;
+    display:inline-block;
+   margin: 0,0,0,10;
+}
+.classB{
+    min-width: 50mm;
+    width: 50%;
+    display: inline-block;
 }
 .about{
     max-height: 50mm;
@@ -247,4 +278,3 @@ background-color: aquamarine;
     color: gold;
 }
 /*footer section ends*/
-
